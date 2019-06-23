@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "romans",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Romans is a three-actor immersive cage match on the nature of citizenship and our relationship to the state",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Thomas Moore <thomas@epicatomic.com>",
   "dependencies": {
     "@types/react-helmet": "^5.0.8",
     "gatsby": "^2.0.111",
