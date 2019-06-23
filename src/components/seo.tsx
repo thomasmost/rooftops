@@ -39,7 +39,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               },
               {
                 property: `og:image`,
-                content: `https://www.romans.nyc/card.jpg`
+                content: `https://www.romans.nyc/card.jpeg`
               },
               {
                 property: `og:type`,
@@ -63,7 +63,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               },
               {
                 property: `twitter:image`,
-                content: `https://www.romans.nyc/card.jpg`
+                content: `https://www.romans.nyc/card.jpeg`
               }
             ]
               .concat(
