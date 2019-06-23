@@ -12,8 +12,10 @@ const IndexPage = () => (
     </div>
     {/* <h1>Romans</h1> */}
     <p>
-      "Are you a citizen or a senator?
-      They will tell you that you can be both. They are lying."
+      <em>
+         "Are you a citizen or a senator?
+         They will tell you that you can be both. They are lying."
+      </em>
     </p>
     <p>
       <em>Romans </em> is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
