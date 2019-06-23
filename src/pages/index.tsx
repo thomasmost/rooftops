@@ -1,14 +1,14 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import FeaturedImage from "../components/featured-image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div style={{ maxWidth: `1200px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <FeaturedImage />
     </div>
     {/* <h1>Romans</h1> */}
     <p>
