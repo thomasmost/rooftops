@@ -11,6 +11,7 @@ const Header = ({ siteTitle = '' }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Link to="/production-history/">Production History</Link>
     </div>
   </header>
 )
