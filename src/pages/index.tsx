@@ -23,6 +23,9 @@ const IndexPage = () => (
        and counterpoints in their battle for control over a nation that does not yet exist and the wife of their most ferocious general,
        whose self-sovereign agenda ultimately throws all their best laid plans into chaos.
     </p>
+    <p>
+      <em>Romans </em> is written by <a href="https://www.twitter.com/thomascmost">Thomas Constantine Moore</a>.
+    </p>
   </Layout>
 )
 
