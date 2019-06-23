@@ -7,7 +7,7 @@ const ProductionHistoryPage = () => (
   <Layout>
     <SEO title="Production History" />
     <h1>Production History</h1>
-    <p><em>"Well, you know what the say... 'all roads lead to...''"</em></p>
+    <p><em>"Well, you know what the say... 'all roads lead to...'"</em></p>
     <p><em>"...what? All roads lead to what?"</em></p>
     <h3>December 14th, 2018 - Immersive Reading at Arts on Site</h3>
     <p>
