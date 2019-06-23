@@ -57,9 +57,9 @@ const ProductionHistoryPage = () => (
          <span className="dialogue">
          What am I doing? What are you doing? Aren&rsquo;t we supposed to be traveling to the 
          </span>
-         <span>
-         promised land
-         </span>
+         <em>
+         {' promised land'}
+         </em>
          <span >
          &nbsp;or something!? This is a trash bin!
          </span>
