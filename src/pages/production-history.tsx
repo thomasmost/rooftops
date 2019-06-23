@@ -7,8 +7,8 @@ const ProductionHistoryPage = () => (
   <Layout>
     <SEO title="Production History" />
     <h1>Production History</h1>
-    <p><em>"Well, you know what the say... 'all roads lead to...'"</em></p>
-    <p><em>"...what? All roads lead to what?"</em></p>
+    <p><em>"It’s just not very exciting, is it? Concrete?"</em></p>
+    <p><em>"But wait’ll you see what we can make out of it!"</em></p>
     <h3>December 14th, 2018 - Immersive Reading at Arts on Site</h3>
     <p>
        In 2018, Rebis Immersive produced a script-in-hand, one-night-only performance of
