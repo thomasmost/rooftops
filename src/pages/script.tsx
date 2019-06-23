@@ -7,6 +7,8 @@ const ProductionHistoryPage = () => (
   <Layout>
     <SEO title="Script" />
     <h1>Script</h1>
+    <p><em>"It’s just not very exciting, is it? Concrete?"</em></p>
+    <p><em>"But wait’ll you see what we can make out of it!"</em></p>
     <p>Read an excerpt from the beginning of Act 2 below. Email <a href="mailto:thomas@epicatomic.com">thomas@epicatomic.com</a> for a full script.</p>
     <div
       className="excerpt"
