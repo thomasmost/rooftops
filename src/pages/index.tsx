@@ -16,7 +16,7 @@ const IndexPage = () => (
       They will tell you that you can be both. They are lying."
     </p>
     <p>
-       Romans is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
+      <em>Romans </em> is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
        Set simultaneously in 753 BC and a desolate wasteland following the collapse of modern civilization,
        Rome's founders are thrown into conflict over their past and future legacy.
        The legendary twins use the audience as supporters, props,
