@@ -15,7 +15,7 @@ const ProductionHistoryPage = () => (
     <h3>December 14th, 2018 - Immersive Reading at Arts on Site</h3>
     <p>
        In 2018, <a href="https://www.facebook.com/experiencerebis/">Rebis Immersive</a> produced a script-in-hand, one-night-only performance of
-       <em> Romans</em> at Arts on Site. The production was directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a> and set at a children's birthday party.
+       <em> Rooftops</em> at Arts on Site. The production was directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a> and set at a children's birthday party.
     </p>
     <BirthdayPartyImage />
     <ul className={style.castList}>

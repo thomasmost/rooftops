@@ -10,15 +10,14 @@ const IndexPage = () => (
     <div style={{ maxWidth: `1200px`, marginBottom: `1.45rem` }}>
       <FeaturedImage />
     </div>
-    {/* <h1>Romans</h1> */}
+    {/* <h1>Rooftops</h1> */}
     <p>
       <em>
-         "Are you a citizen or a senator?
-         They will tell you that you can be both. They are lying."
+         The world is watching...
       </em>
     </p>
     <p>
-      <em>Romans </em> is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
+      <em>Rooftops </em> is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
        Set simultaneously in 753 BC and a desolate wasteland following the collapse of modern civilization,
        Rome's founders are thrown into conflict over their past and future legacy.
        The legendary twins use the audience as supporters, props,
@@ -26,7 +25,7 @@ const IndexPage = () => (
        whose self-sovereign agenda ultimately throws all their best laid plans into chaos.
     </p>
     <p>
-      <em>Romans </em> is written by <a href="https://www.twitter.com/thomascmost">Thomas Constantine Moore</a>.
+      <em>Rooftops </em> is written by <a href="https://www.twitter.com/thomascmost">Thomas Constantine Moore</a>.
     </p>
   </Layout>
 )

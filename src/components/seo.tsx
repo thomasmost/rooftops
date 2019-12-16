@@ -39,7 +39,7 @@ function SEO({ description, lang, meta, keywords, title }: ISEOPropTypes) {
               },
               {
                 property: `og:image`,
-                content: `https://www.romans.nyc/card.jpeg`
+                content: `https://www.rooftops.city/card.jpeg`
               },
               {
                 property: `og:type`,
