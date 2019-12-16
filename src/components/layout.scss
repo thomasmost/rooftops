@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
 html {
   font-family: sans-serif;
@@ -25,8 +25,9 @@ summary {
   background-color: #d0e3f3;
 }
 a {
-   color: rgb(221, 119, 76);
-   text-decoration: none;
+  font-family: 'Open-Sans', sans-serif;
+  color: #d0e3f3;
+  text-decoration: none;
 }
 main {
    p, a {
@@ -633,5 +634,22 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+// New Stuff
+
+$sidebarWidth: 300px;
+
+.full-layout {
+  nav {
+    width: $sidebarWidth;
+    height: 100%;
+    float: left;
+  }
+  .content-window {
+    position: relative;
+    left: $sidebarWidth;
+    width: calc(100% - 400px);
   }
 }

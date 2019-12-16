@@ -17,7 +17,7 @@ const AOSImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "artsonsite.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "placeholder.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1200) {
               ...GatsbyImageSharpFluid
