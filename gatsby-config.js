@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Romans`,
-    description: `Romans is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.`,
+    title: `Rooftops`,
+    description: `The world is watching...`,
     author: `@thomascmost`,
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Romans`,
-        short_name: `romans`,
+        name: `Rooftops`,
+        short_name: `rooftops`,
         start_url: `/`,
         background_color: `#dd774c`,
         theme_color: `#dd774c`,
