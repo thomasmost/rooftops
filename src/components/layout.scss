@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import '../styles/colors';
+@import '../styles/typography';
 
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #d0e3f3; //rgb(211, 175, 70); // rgb(211, 175, 70);
+  background-color: $backgroundColor; //rgb(211, 175, 70); // rgb(211, 175, 70);
 }
 body {
   margin: 0;
@@ -23,11 +23,11 @@ nav,
 section,
 summary {
   display: block;
-  background-color: #d0e3f3;
+  background-color: $backgroundColor;
 }
 a {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #d0e3f3;
+  font-family: $bodyFont;
+  color: $linkColor;
   text-decoration: none;
 }
 main {
@@ -75,11 +75,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-  display: inline-block;
 }
 mark {
   background-color: #ff0;
@@ -251,7 +246,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -652,5 +647,6 @@ $sidebarWidth: 300px;
     position: relative;
     left: $sidebarWidth;
     width: calc(100% - 400px);
+    padding-left: 100px;
   }
 }

@@ -13,19 +13,19 @@ const IndexPage = () => (
     {/* <h1>Rooftops</h1> */}
     <p>
       <em>
-         The world is watching...
+        The world is watching...
       </em>
     </p>
     <p>
-      <em>Rooftops </em> is a three-actor immersive cage match on the nature of citizenship and our relationship to the state.
-       Set simultaneously in 753 BC and a desolate wasteland following the collapse of modern civilization,
-       Rome's founders are thrown into conflict over their past and future legacy.
-       The legendary twins use the audience as supporters, props,
-       and counterpoints in their battle for control over a nation that does not yet exist and the wife of their most ferocious general,
-       whose self-sovereign agenda ultimately throws all their best laid plans into chaos.
+      <em>Rooftops </em> is a superheroic <em>Powered by the Apocalypse</em> tabletop roleplaying game where actions have consequences and ideas are more important than numbers.
     </p>
     <p>
-      <em>Rooftops </em> is written by <a href="https://www.twitter.com/thomascmost">Thomas Constantine Moore</a>.
+      You are playing <em>Rooftops</em> because you want to play a hero:
+      an individual who wants to make the world a better place by thwarting the efforts of those who would take advantage of good people that can’t defend themselves.
+      A hero has powers or skills which allow them to do what others would consider impossible.
+    </p>
+    <p>
+      <em>Rooftops </em> is written by Darren Caulley & Thomas Moore
     </p>
   </Layout>
 )

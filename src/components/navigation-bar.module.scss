@@ -1,3 +1,6 @@
+@import '../styles/colors';
+@import '../styles/typography';
+
 .navigation {
   background-color: black;
   left: 0;
@@ -8,12 +11,11 @@
     max-width: 960px;
     padding: 1.5rem 1rem;
     h1 {
-      color: #d0e3f3;
       margin: 0;
       margin-bottom: 40px;
       a {
-        font-family: 'Righteous';
-        color: #d0e3f3;
+        font-family: $titleFont;
+        color: $linkColor;
         text-decoration: none;
       }
     }
