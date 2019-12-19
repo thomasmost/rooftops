@@ -1,5 +1,6 @@
 @import '../styles/colors';
 @import '../styles/typography';
+@import '../styles/spacing';
 
 html {
   font-family: sans-serif;
@@ -635,8 +636,6 @@ pre tt:after {
 
 // New Stuff
 
-$sidebarWidth: 300px;
-
 .full-layout {
   nav {
     width: $sidebarWidth;
@@ -646,7 +645,12 @@ $sidebarWidth: 300px;
   .content-window {
     position: relative;
     left: $sidebarWidth;
-    width: calc(100% - 400px);
-    padding-left: 100px;
+    width: calc(100% - 200px - 5vw);
+    padding-left: 5vw;
+    main {
+      h1 {
+        padding-top: 1.5rem;
+      }
+    }
   }
 }
