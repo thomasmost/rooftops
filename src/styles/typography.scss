@@ -10,6 +10,18 @@ $bodyFont: 'Roboto', sans-serif;
   font-family: $bodyFont;
 }
 
+a {
+  font-family: $bodyFont;
+  color: $linkColor;
+  text-decoration: none;
+  .material-icons {
+    margin-right: 10px;
+    line-height: 1.1em;
+  }
+  .link-text {
+  }
+}
+
 main {
   h1 {
     font-family: $titleFont;

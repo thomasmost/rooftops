@@ -26,11 +26,6 @@ summary {
   display: block;
   background-color: $backgroundColor;
 }
-a {
-  font-family: $bodyFont;
-  color: $linkColor;
-  text-decoration: none;
-}
 main {
    p, a {
       // padding: 0 16px;
@@ -639,16 +634,39 @@ pre tt:after {
     width: $sidebarWidth;
     height: 100%;
     float: left;
+    transition: .5s;
+    .first-letter {
+      width: 0;
+      float: left;
+    }
+    .link-text, .full-title {
+      transition: 1s;
+    }
   }
   .content-window {
     position: relative;
     left: $sidebarWidth;
-    width: calc(100% - 200px - 5vw);
+    width: calc(100% - 240px - 5vw);
     padding-left: 5vw;
     main {
       h1 {
         padding-top: 1.5rem;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 726px) {
+  .full-layout {
+    nav {
+      width: $reducedSidebarWidth;
+      .link-text, .full-title {
+        opacity: 0;
+      }
+    }
+    .content-window {
+      left: $reducedSidebarWidth;
+      width: calc(100% - 60px - 5vw);
     }
   }
 }

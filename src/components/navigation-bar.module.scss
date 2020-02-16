@@ -13,7 +13,6 @@
     h1 {
       margin: 0;
       margin-bottom: 40px;
-      font-size: 1.5rem;
       a {
         font-family: $titleFont;
         color: $linkColor;
@@ -21,8 +20,8 @@
       }
     }
     a {
-      display: block;
       margin-bottom: 40px;
+      display: flex;
     }
   }
 }
