@@ -13,10 +13,11 @@ const DownloadPage = () => (
       <p>
         The current Quickplay Guide is on <strong>version 1</strong>.
       </p>
-      <p><span>Play the game by </span>
-        <a href="http://filedn.com/lLL0lkOxLkGHJoHpDELDETb/Rooftops/RooftopsQuickplay_v1.pdf">
-          downloading now!
+      <p>
+        <a href="https://my.pcloud.com/publink/show?code=XZkuQDkZBILaaorFEu02JFp5rF5vvzwPljuy">
+          Download it now
         </a>
+        <span> and begin your adventure...</span>
       </p>
     </article>
   </Layout>
