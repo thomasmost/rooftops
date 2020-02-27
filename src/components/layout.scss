@@ -670,3 +670,36 @@ pre tt:after {
     }
   }
 }
+
+
+.ks {
+  display: block;
+  position: relative;
+  max-width: 300px;
+  margin: auto;
+  img {
+    margin-bottom: 0;
+    transition: .5s !important;
+  }
+  .color {
+    position: absolute !important;
+    height: 284px;
+    width: 284px;
+    display: block;
+    top: 6px;
+    left: 5px;
+    img {
+      transition: .5s !important;
+      opacity: 0 !important;
+    }
+  }
+  &:hover {
+    img {
+      opacity: 0 !important;
+    }
+    .color picture img {
+      opacity: 1 !important;
+      z-index: 9;
+    }
+  }
+}

@@ -3,6 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import FeaturedImage from "../components/featured-image"
 import SEO from "../components/seo"
+import ZinequestImage from "../components/zinequest-image"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -12,12 +14,12 @@ const IndexPage = () => (
     </div>
     {/* <h1>Rooftops</h1> */}
     <p>
-      <em>
-        The world is watching...
-      </em>
+      <em>Rooftops </em> is a superheroic <em>Powered by the Apocalypse</em> tabletop roleplaying game where actions have consequences and ideas are more important than numbers.
     </p>
     <p>
-      <em>Rooftops </em> is a superheroic <em>Powered by the Apocalypse</em> tabletop roleplaying game where actions have consequences and ideas are more important than numbers.
+      We have a <a href="https://www.kickstarter.com/projects/1303651095/rooftops-the-world-is-watching-a-superhero-rpg?ref=rooftops.city">Kickstarter! </a>
+      Check out our <Link to="/download">Quickplay Guide</Link> and if you like what you see, we hope you'll consider giving us some support:
+      <ZinequestImage />
     </p>
     <p>
       You are playing <em>Rooftops</em> because you want to play a hero:

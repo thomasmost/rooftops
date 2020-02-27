@@ -2,6 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
+
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -13,11 +14,18 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const AOSImage = () => (
+const ZinequestImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "rooftops_banner.png" }) {
+        activeImage: file(relativePath: { eq: "ZineQuest_2020_Kickstarter.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        },
+        placeholderImage: file(relativePath: { eq: "ZineQuest_2020_Kickstarter_bw.png" }) {
           childImageSharp {
             fluid(maxWidth: 1200) {
               ...GatsbyImageSharpFluid
@@ -26,7 +34,14 @@ const AOSImage = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+    <a 
+      className="ks"
+      href="https://www.kickstarter.com/projects/1303651095/rooftops-the-world-is-watching-a-superhero-rpg?ref=rooftops.city">
+      <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+      <Img className='color' fluid={data.activeImage.childImageSharp.fluid} />
+    </a>)
+    }
   />
 )
-export default AOSImage
+export default ZinequestImage
