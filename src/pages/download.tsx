@@ -10,9 +10,9 @@ const DownloadPage = () => (
     <article>
       <p>
         The current Quickplay Guide is on <strong>version 3</strong>.
-        It includes an abridged summary of the rules,
-        an out of the box adventure that you can play with zero prep time,
-        and 4 archetypes and 4 powersets for your players to choose from!
+        It includes an abridged summary of the <strong>rules</strong>,
+        an out of the box <strong>adventure</strong> that you can play with zero prep time,
+        and 4 archetypes and 4 powersets for your players to choose from.
       </p>
       <p>
         <a href="https://my.pcloud.com/publink/show?code=XZdb5nkZHiTfHrgdQwuG4NFnNagsNyDR4SAX">
