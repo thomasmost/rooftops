@@ -9,10 +9,13 @@ const DownloadPage = () => (
     <h1>Download</h1>
     <article>
       <p>
-        The current Quickplay Guide is on <strong>version 2</strong>.
+        The current Quickplay Guide is on <strong>version 3</strong>.
+        It includes an abridged summary of the rules,
+        an out of the box adventure that you can play with zero prep time,
+        and 4 archetypes and 4 powersets for your players to choose from!
       </p>
       <p>
-        <a href="https://my.pcloud.com/publink/show?code=XZd3C1kZxa2GazJw3KH1C8W8qnk9ypL2A2aX">
+        <a href="https://my.pcloud.com/publink/show?code=XZdb5nkZHiTfHrgdQwuG4NFnNagsNyDR4SAX">
           Download it now
         </a>
         <span> and begin your adventure...</span>
