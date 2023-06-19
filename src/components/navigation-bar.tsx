@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import "./navigation-bar.module.scss"
+import "./navigation.scss"
 
 const NavigationBar = ({ siteTitle = '' }) => (
   <nav className={"navigation"}>
