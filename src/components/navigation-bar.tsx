@@ -1,10 +1,9 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import style from "./navigation-bar.module.scss"
+import "./navigation-bar.module.scss"
 
 const NavigationBar = ({ siteTitle = '' }) => (
-  <nav className={style.navigation}>
+  <nav className={"navigation"}>
     <div>
       <h1>
         <Link className="first-letter" to="/">
